@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="header">
+    <ng-container [ngTemplateOutlet]="header"></ng-container>
+  </div>
+  <div class="content">
+    <ng-container
+      [ngTemplateOutlet]="content"
+      [ngTemplateOutletContext]="{product: product}"
+    ></ng-container>
+  </div>
+</div>
