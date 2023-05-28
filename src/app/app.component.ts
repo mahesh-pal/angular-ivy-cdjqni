@@ -8,6 +8,7 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent {
   myName = 'Angular ' + VERSION.major;
   title = 'first';
+  open = false;
 
   changeTitle() {
     this.title = 'Second';
